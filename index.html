@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>E-Web</h1>
+      <div class="inputs"><input type="text" placeholder="ürün arayınız..." />
+         <img src="./img/search.gif">
+      </div>
+
+      <div>
+        <button id="open-btn"><img src="./img/basket.png" ></button>
+        <button>Kayıt Ol!</button>
+        <button>Giriş Yap</button>
+      </div>
+    </header>
+    <main>
+      <div class="category-wrapper">
+        <h1>Kategoriler</h1>
+        <div class="categories"></div>
+      </div>
+      <div class="product-wrapper">
+        <h1>Ürünler</h1>
+        <div class="products"></div>
+      </div>
+
+      <div class="modal-wrapper">
+        <div class="modal">
+          <img id="close-btn" src="./img/close.png" />
+          <div class="modal-list"></div>
+          <div class="total">
+            <span>Toplam : </span>
+            <span id="modal-info">
+              5000
+            </span>
+            <span>$</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>
